@@ -1,0 +1,165 @@
+/*
+
+* Tyopgraphy
+* Page Structure
+* Header & Navigation
+* Content & Media
+* Footer 
+* Misc
+
+*/
+
+
+/* Typography 
+------------------------
+*/
+
+h1 {
+	color: #527f39;
+	font: bold 20px 'Press Start 2P', cursive;
+	margin-bottom: 20px;	
+	text-align: center;
+}
+
+span {
+	color: #204631;
+}
+
+
+p {
+	color: #204631;
+	font: 20px 'Press Start 2P', cursive;
+	text-align: center;
+}
+
+
+/* Page Structure 
+------------------------*/
+
+body {
+	background-color: #aec440;
+}
+
+.wrapper {
+	max-width: 228px;
+	margin: 0 auto;
+	margin-top: 10%;
+}
+
+/* Content & Media
+------------------------*/
+
+table { 
+	border-collapse: collapse;
+}
+
+td {
+	background-color: #204631;
+	border: solid #193c29 3px;
+	width: 40px;
+	height: 40px;
+}
+
+.light {
+	background-color: #527f39;
+}
+
+.counter {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+button {
+	background-color: #204631; 
+	border: none;
+	color: #d7e894;
+	font: 20px 'Press Start 2P', cursive;
+	padding: 5px;
+}
+
+/* Misc
+------------------------*/
+
+.hide {
+	display: none;
+}	
+
+
+@media screen and (min-width: 485px) {
+
+/* Typography 
+------------------------
+*/
+
+	h1 {
+		color: #F5AB35;
+		font: 800 40px 'Open Sans', sans-serif;
+		margin-bottom: 20px;	
+		text-align: center;
+	}
+	
+	span {
+		color: #602e0e;
+	}
+	
+	p {
+		color: #000;
+		font: 700 30px 'Open Sans', sans-serif;
+		text-align: center;
+	}
+
+	/* Page Structure 
+	------------------------*/
+
+	body {
+		background-color: #ECF0F1;
+		transition: 1.5s;
+	}
+	
+	.wrapper {
+		max-width: 378px;
+		margin: 0 auto;
+		margin-top: 5%;
+	}
+
+	/* Content & Media
+	------------------------*/
+	
+	table {
+		border-collapse: separate;
+	}
+	
+	td {
+		background-color: #602e0e;
+		border: solid #351908 3px;
+		border-radius: 5px;
+		cursor: pointer;
+		width: 70px;
+		height: 70px;
+	}
+	
+	.light {
+		background-color: #F5AB35;
+		transition: 0.5s;
+	}
+	
+	button {
+		background-color: #351908;
+		border-radius: 5px;
+		color: #F5AB35;
+		cursor: pointer;
+		font: 700 30px 'Open Sans', sans-serif;
+		padding: 15px;
+	}
+	
+	/* Misc
+------------------------*/
+	
+	/* Turn your lights down low */
+	.dark {
+		background-color: #7b8385;
+	}
+
+
+}
